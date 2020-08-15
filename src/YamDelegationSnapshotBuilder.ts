@@ -5,7 +5,6 @@ import Bluebird from 'bluebird'
 
 export default class YamDelegationSnapshotBuilder {
   private readonly blockHeight: string
-  private readonly yammers: Array<IYammer>[]
   private readonly yamContract
 
   private constructor(blockHeight: string, yamContract) {
