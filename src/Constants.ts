@@ -1,6 +1,6 @@
 export default {
     "CONTRACT_CREATED_BLOCK": 10636560,
-    "DELAGATE": "0x683a78ba1f6b25e29fbbc9cd1bfa29a51520de84",
+    "DELEGATE": "0x683a78ba1f6b25e29fbbc9cd1bfa29a51520de84",
     "YAM_ADDRESS": "0x0e2298e3b3390e3b945a5456fbf59ecc3f55da16",
     "YAM_ABI": [{ "constant": true, "inputs": [{ "internalType": "address", "name": "who", "type": "address" }], "name": "balanceOfUnderlying", "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }], "payable": false, "stateMutability": "view", "type": "function" }, {
         "anonymous": false,

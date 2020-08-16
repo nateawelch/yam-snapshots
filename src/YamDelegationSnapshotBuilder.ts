@@ -18,7 +18,7 @@ export default class YamDelegationSnapshotBuilder {
       fromBlock: CONSTANTS.CONTRACT_CREATED_BLOCK,
       toBlock: this.blockHeight,
       filter: {
-        toDelegate: [CONSTANTS.DELAGATE]
+        toDelegate: [CONSTANTS.DELEGATE]
       }
     })
     // Get addresses only
@@ -39,7 +39,7 @@ export default class YamDelegationSnapshotBuilder {
       concurrency: 100
     })
     // Filter by users that are delegating to the delegate at the snapshot height
-    delegators = delegators.filter((delegator: any) => delegator.delegate.toLowerCase() === CONSTANTS.DELAGATE)
+    delegators = delegators.filter((delegator: any) => delegator.delegate.toLowerCase() === CONSTANTS.DELEGATE)
 
     // Get balances and return Yammers
 
